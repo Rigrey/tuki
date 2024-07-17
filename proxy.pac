@@ -3,7 +3,7 @@ function FindProxyForURL(url, host) {
     else if (dnsDomainIs(host, "noc2.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
     else if (dnsDomainIs(host, "ais.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
     else if (dnsDomainIs(host, "client.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
-    else if (dnsDomainIs(host, "pk.eu.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
+    else if (dnsDomainIs(host, "pk.eu.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8003";
     else if (dnsDomainIs(host, "val.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
     else if (dnsDomainIs(host, "casval.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
     else if (dnsDomainIs(host, "casnoc.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
@@ -12,8 +12,6 @@ function FindProxyForURL(url, host) {
     else if (dnsDomainIs(host, "glpi.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
     else if (dnsDomainIs(host, "proxy.bmstu.ru")) return "DIRECT";
     else if (dnsDomainIs(host, "bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
-    else if (shExpMatch(url, "*bmstu.ru*")) return "HTTPS proxy.bmstu.ru:8476";
-    else if (shExpMatch(url, "*")) return "HTTPS proxy.bmstu.ru:8476";
     else if (dnsDomainIs(host, "library.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
     else if (dnsDomainIs(host, "bmstu.press")) return "HTTPS proxy.bmstu.ru:8476";
     else if (dnsDomainIs(host, "eu.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
