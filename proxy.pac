@@ -3,7 +3,7 @@ function FindProxyForURL(url, host) {
     else if (dnsDomainIs(host, "noc2.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
     else if (dnsDomainIs(host, "ais.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
     else if (dnsDomainIs(host, "client.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
-    else if (dnsDomainIs(host, "pk.eu.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8003";
+    else if (dnsDomainIs(host, "pk.eu.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8443";
     else if (dnsDomainIs(host, "val.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
     else if (dnsDomainIs(host, "casval.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
     else if (dnsDomainIs(host, "casnoc.bmstu.ru")) return "HTTPS proxy.bmstu.ru:8476";
